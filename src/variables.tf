@@ -30,7 +30,7 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
-
+/*
 ###common vars
 
 variable "vms_ssh_root_key" {
@@ -52,6 +52,4 @@ variable "vm_db_name" {
   default     = "netology-develop-platform-db"
   description = "example vm_db_ prefix"
 }
-
-
-
+*/
