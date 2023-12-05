@@ -13,3 +13,8 @@ provider "yandex" {
   folder_id = var.folder_id
   zone      = var.default_zone
 }
+
+
+provider "template" {
+  version = "2.2.0"
+}

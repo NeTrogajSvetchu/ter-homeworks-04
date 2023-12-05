@@ -82,9 +82,41 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/6a6ceb4287f2fcbf9e31e
 
    terraform plan
    
-   ![Alt text](image.png)
+  ![Alt text](src/png/15.png) 
 
    Если скопировать "terraform.tfstate.*.backup" в terraform.tfstate то ошибки не произойдет
 
-Ссылка на коммит задание 3.
-Отправьте пожалуйста на доработку. Не успеваю доделать доп. задания
+    Ссылка на коммит задание 3.
+
+https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/cfd61b2752dae7664aa54af1743392c669f51981
+
+
+    Задание 4.
+
+    1. Были созданы переменные для ресурсов подсетей.
+
+![Alt text](src/png/16.png)
+
+    2. Добавлены ресурсы в мейн модуля.
+
+![Alt text](src/png/17.png) неразобрался как сделать 
+
+    3. Отредактирован output в модуле.
+
+![Alt text](src/png/18.png)
+
+    4. Отредактирован мейн проекта.
+
+![Alt text](src/png/19.png)
+
+    5. Вывод команды terraform apply
+
+![Alt text](src/png/20.png)
+
+    6. Вывод команд yc vpc subnet list и yc vpc network list
+
+![Alt text](src/png/21.png)
+
+    Ссылка на коммит задание 4.
+
+Задание 5.

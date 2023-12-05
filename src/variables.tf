@@ -32,6 +32,35 @@ variable "vpc_name" {
   description = "VPC network&subnet name"
 }
 /*
+variable "vpc_subnet_2"{
+ type = list(object(
+  {
+    name = list(string)
+    zone = list(string)
+    v4_cidr_blocks = list(string)
+  }))
+  default = [{
+    v4_cidr_blocks = ["10.0.2.0/24","10.0.3.0/24"]
+    zone  = ["ru-central1-b", "ru-central1-c"]
+    name  = ["vpc_subnet_2","vpc_subnet_3"]
+  }]
+  /*
+}
+variable "vpc_subnet_3"{
+ type = list(object(
+  {
+    name = string
+    zone = string
+    v4_cidr_blocks = list(string)
+  }))
+  default = [{
+    v4_cidr_blocks = ["10.0.3.0/24"]
+    zone  = "ru-central1-c"
+    name  = "vpc_subnet_3"
+  }]
+  
+}
+/*
 ###common vars
 
 variable "vms_ssh_root_key" {
