@@ -22,8 +22,9 @@ output "subnet_ids_1" {
 output "subnet_ids_2" {
   value = yandex_vpc_subnet.vpc_subnet_2[0].id
 }
-
-
+output "subnet_zone_2" {
+  value = yandex_vpc_subnet.vpc_subnet_2[0].zone
+}
 /*
 output "subnet_ids" {
   value = yandex_vpc_subnet.vpc_subnet[*].id

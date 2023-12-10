@@ -13,7 +13,9 @@ variable "folder_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
-
+/*
+variable "subnet_id" {
+}*/
 variable "default_zone" {
   type        = string
   default     = "ru-central1-a"
@@ -31,6 +33,49 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+variable "name_vm_Mysql" {
+  type = string
+  default = "vm_Mysql"
+}
+variable "name_vm_Mysql_2" {
+  type = string
+  default = "vm_Mysql2"
+}
+ variable "user_bd_password" {  
+ }
+/*
+variable "source_vm_Mysql" {
+  default = "./vm_Mysql"
+}
+variable "source_vpc_subnet_1" {
+  default = "./vpc_dev"
+}
+variable "source_vm_Mysql_base" {
+  default = "./vm_Mysql/base"
+}
+variable "source_vm_Mysql_name" {
+  default = "./vm_Mysql/user"
+}
+variable "source_test-vm" {
+  default = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+}
+*/
+variable "image_family_test-vm" {
+  default = "ubuntu-2004-lts"
+}
+variable "public_ip_test-vm" {
+  default = true
+}
+variable "instance_count" {
+  type = number
+  default = 1
+}
+variable "metadata_serial-port-enable" {
+  type = number
+  default = 1
+}
+
 /*
 variable "vpc_subnet_2"{
  type = list(object(

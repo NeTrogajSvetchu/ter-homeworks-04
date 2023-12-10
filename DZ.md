@@ -70,7 +70,7 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/6a6ceb4287f2fcbf9e31e
 
 ![Alt text](src/png/14.png)
 
-    1.  Команды восстановления стейта
+    3.  Команды восстановления стейта
    
    terraform state list
 
@@ -92,8 +92,9 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/cfd61b2752dae7664aa54
 
 
     Задание 4.
+(Не разобрался как сделать создание трех подсетей с разными зонами и сидрами в одном ресурсе. )
 
-    1. Были созданы переменные для ресурсов подсетей.
+    1. Были созданы переменные для ресурсов подсетей. 
 
 ![Alt text](src/png/16.png)
 
@@ -119,4 +120,26 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/cfd61b2752dae7664aa54
 
     Ссылка на коммит задание 4.
 
-Задание 5.
+https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/4d28779b9b6fa8b742f5228355f27106ea282550
+
+    Задание 5.
+
+    1. Написал модуль кластеру БД (к сожалению так и не разобрался как создать хоста при помощи переменной)
+
+![Alt text](src/png/22.png)
+
+![Alt text](src/png/23.png)
+
+    2. Написал модуль к кластеру БД database и user
+
+![Alt text](src/png/24.png)
+
+![Alt text](src/png/25.png)
+
+    3.Так как не получилось полностью сделать первый пункт задания 
+    сделал два хоста для кластера в разных подсетях.Вывод команды terraform apply
+
+![Alt text](src/png/26.png)
+
+Ссылка на коммит задание 5.
+
