@@ -141,5 +141,24 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/4d28779b9b6fa8b742f52
 
 ![Alt text](src/png/26.png)
 
-Ссылка на коммит задание 5.
+    Ссылка на коммит задание 5.
+
+https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/6f29a26f2f36ac2da01ffb3ae908e5f334127133
+
+    Задание 6.
+
+    1. Был развернут сервер vault 
+
+![Alt text](src/png/27.png)
+   
+    2. Пытался сохранить секрет созданный в веб, добиться этого не смог.
+
+![Alt text](src/png/28.png)
+
+    3. Вывод
+
+![Alt text](src/png/29.png)
+
+    Ссылка на коммит задание 6.
+
 
