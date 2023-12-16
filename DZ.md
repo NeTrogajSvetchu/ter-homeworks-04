@@ -161,4 +161,12 @@ https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/6f29a26f2f36ac2da01ff
 
     Ссылка на коммит задание 6.
 
+https://github.com/NeTrogajSvetchu/ter-homeworks-04/commit/609b80142c10b740ad99ed2dcba6ba08966d046d
+
+    Задание 7.
+
+    1.Создал внешний стейт VPC
+
+![Alt text](src/png/30.png)
+
 

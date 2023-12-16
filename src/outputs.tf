@@ -9,11 +9,11 @@ output "ip" {
     name = module.test-vm.labels
   }]
 }
-
+/*
 output "vpc_subnet_1" {
   value = module.vpc_subnet_1
 }
 
 output "user" {
   value = module.name.user
-}
+}*/
