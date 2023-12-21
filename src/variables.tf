@@ -38,11 +38,14 @@ variable "name_vm_Mysql" {
   type = string
   default = "vm_Mysql"
 }
+/*
 variable "name_vm_Mysql_2" {
   type = string
   default = "vm_Mysql2"
 }
+*/
  variable "user_bd_password" {  
+  type = string
  }
 /*
 variable "source_vm_Mysql" {
@@ -61,12 +64,18 @@ variable "source_test-vm" {
   default = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
 }
 */
+
 variable "image_family_test-vm" {
+  type = string
   default = "ubuntu-2004-lts"
 }
-variable "public_ip_test-vm" {
+
+
+  variable "public_ip_test-vm" {
   default = true
+  type = any
 }
+
 variable "instance_count" {
   type = number
   default = 1
