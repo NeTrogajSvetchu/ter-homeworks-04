@@ -1,7 +1,7 @@
 provider "vault" {
  address = "http://0.0.0.0:8200"
  skip_tls_verify = true
- token = "education"
+ token = var.token
 }
 data "vault_generic_secret" "vault_example"{
  path = "secret/example"
